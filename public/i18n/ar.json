@@ -1,0 +1,93 @@
+{
+  "auth": {
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "confirmLogout": "هل أنت متأكد أنك تريد تسجيل الخروج؟",
+    "loggedOut": "تم تسجيل الخروج بنجاح.",
+    "signup": "إنشاء حساب",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "rememberMe": "تذكرني",
+    "forgotPassword": "هل نسيت كلمة المرور؟",
+    "dontHaveAccount": "ليس لديك حساب؟",
+    "alreadyHaveAccount": "هل لديك حساب بالفعل؟",
+    "acceptTerms": "أوافق على شروط الخدمة",
+    "submit": "إرسال",
+    "showPassword": "إظهار كلمة المرور",
+    "poweredBy": "مشغل بواسطة",
+    "goldsmithSystem": "نظام الصائغ",
+    "systemTagline": "منصتك الموثوقة لتجارة الذهب",
+    "logoAlt": "شعار نظام الصائغ"
+  },
+  "sidebar": {
+    "dashboard": "لوحة التحكم",
+    "inventory": "المخزون",
+    "priceTracking": "تتبع الأسعار",
+    "analytics": "التحليلات",
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات",
+    "security": "الأمان",
+    "history": "السجل",
+    "store": "المتجر",
+    "employees": "الموظفون",
+    "tasks": "المهام",
+    "contacts": "جهات الاتصال",
+    "payments": "المدفوعات",
+    "compliance": "الامتثال",
+    "miners": "المنقبون",
+    "merchants": "التجار",
+    "transactions": "المعاملات"
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "welcome": "مرحبًا بك في نظام الصائغ",
+    "quickStats": "إحصائيات سريعة",
+    "recentActivity": "النشاط الأخير",
+    "quickActions": "إجراءات سريعة",
+    "analytics": "التحليلات",
+    "placeholderStats": "محتوى إحصائيات افتراضي",
+    "placeholderActivity": "محتوى نشاط افتراضي",
+    "placeholderActions": "محتوى إجراءات افتراضي",
+    "chartPlaceholder": "رسم بياني توضيحي",
+    "totalSales": "إجمالي المبيعات",
+    "totalInventory": "إجمالي المخزون",
+    "newCustomers": "عملاء جدد",
+    "salesOverview": "نظرة عامة على المبيعات"
+  },
+  "admin": {
+    "dashboardTitle": "لوحة تحكم المشرف",
+    "dashboardSubtitle": "أدوات الإدارة ونظرة عامة على النظام",
+    "totalUsers": "إجمالي المستخدمين",
+    "systemStatus": "حالة النظام",
+    "statusRunning": "يعمل بسلاسة",
+    "recentLogs": "السجلات الأخيرة",
+    "noLogsPlaceholder": "لا توجد سجلات حديثة متاحة.",
+    "quickTools": "أدوات الوصول السريع",
+    "manageUsers": "إدارة المستخدمين",
+    "security": "الأمان",
+    "systemSettings": "إعدادات النظام",
+    "auditLogs": "سجلات التدقيق"
+  },
+  "terms": {
+    "title": "شروط الخدمة",
+    "content": "إليك شروط الخدمة..."
+  },
+  "buttons": {
+    "logout": "تسجيل الخروج",
+    "confirm": "تأكيد",
+    "cancel": "إلغاء"
+  },
+  "errors": {
+    "required": "هذا الحقل مطلوب",
+    "invalidEmail": "عنوان البريد الإلكتروني غير صالح",
+    "passwordsDontMatch": "كلمتا المرور غير متطابقتين"
+  },
+  "navigation": {
+    "home": "الرئيسية",
+    "markets": "الأسواق",
+    "wallet": "المحفظة",
+    "profile": "الملف الشخصي"
+  }
+}
+

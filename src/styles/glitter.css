@@ -1,0 +1,39 @@
+/* Sparkling star effect */
+.star {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: radial-gradient(circle, #ffd700, #fff7b2, transparent);
+  border-radius: 50%;
+  opacity: 0;
+  animation: sparkle 3s ease-in-out forwards;
+  filter: drop-shadow(0 0 4px rgba(255, 215, 0, 0.8));
+  pointer-events: none;
+  z-index: 0;
+}
+
+@keyframes sparkle {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) translateY(0);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.5) translateY(-10px);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.2) translateY(-20px);
+  }
+}
+
+/* Shimmer trail animation */
+@keyframes shimmer {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+

@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Full height for layout */
+html,
+body,
+#root {
+  @apply h-full w-full overflow-x-hidden;
+}
+
+/* Background and text color handling */
+body {
+  @apply bg-light dark:bg-dark text-gray-900 dark:text-gray-100;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Sidebar scroll container */
+.sidebar-scroll {
+  @apply overflow-y-auto;
+  scrollbar-width: thin;
+  scrollbar-color: theme('colors.gray.400') theme('colors.gray.100');
+  -webkit-overflow-scrolling: touch;
+}
+
+.dark .sidebar-scroll {
+  scrollbar-color: theme('colors.gray.600') theme('colors.gray.800');
+}
+
+.sidebar-scroll::-webkit-scrollbar {
+  @apply w-2;
+}
+
+.sidebar-scroll::-webkit-scrollbar-track {
+  @apply bg-gray-100 dark:bg-gray-800;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 dark:bg-gray-600 rounded-full;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-500 dark:bg-gray-500;
+}
+
+/* Absolute positioning for scrollable area */
+.absolute.top-20 {
+  top: 5rem; /* Match the header height */
+}
+
+/* Prevent body scrolling when sidebar is open on mobile */
+body.sidebar-open {
+  @apply overflow-hidden;
+}
+
+/* Global scrollbar styles */
+::-webkit-scrollbar {
+  @apply w-2 h-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100 dark:bg-gray-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 dark:bg-gray-600 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-500 dark:bg-gray-500;
+}
+
+/* Smooth transitions */
+body {
+  @apply transition-colors duration-200;
+}
+
+/* Better text rendering */
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Focus styles */
+*:focus {
+  @apply outline-none ring-2 ring-yellow-400 ring-opacity-50;
+}

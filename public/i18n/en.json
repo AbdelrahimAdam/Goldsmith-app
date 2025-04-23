@@ -1,0 +1,93 @@
+{
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "confirmLogout": "Are you sure you want to log out?",
+    "loggedOut": "You have been successfully logged out.",
+    "signup": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "rememberMe": "Remember Me",
+    "forgotPassword": "Forgot Password?",
+    "dontHaveAccount": "Don't have an account?",
+    "alreadyHaveAccount": "Already have an account?",
+    "acceptTerms": "I agree to the Terms of Service",
+    "submit": "Submit",
+    "showPassword": "Show Password",
+    "poweredBy": "Powered by",
+    "goldsmithSystem": "Goldsmith System",
+    "systemTagline": "Your trusted gold trading platform",
+    "logoAlt": "Goldsmith System Logo"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "inventory": "Inventory",
+    "priceTracking": "Price Tracking",
+    "analytics": "Analytics",
+    "profile": "Profile",
+    "settings": "Settings",
+    "security": "Security",
+    "history": "History",
+    "store": "Store",
+    "employees": "Employees",
+    "tasks": "Tasks",
+    "contacts": "Contacts",
+    "payments": "Payments",
+    "compliance": "Compliance",
+    "miners": "Miners",
+    "merchants": "Merchants",
+    "transactions": "Transactions"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome to the Goldsmith System",
+    "quickStats": "Quick Stats",
+    "recentActivity": "Recent Activity",
+    "quickActions": "Quick Actions",
+    "analytics": "Analytics",
+    "placeholderStats": "Placeholder stats content",
+    "placeholderActivity": "Placeholder activity content",
+    "placeholderActions": "Placeholder actions content",
+    "chartPlaceholder": "Chart placeholder",
+    "totalSales": "Total Sales",
+    "totalInventory": "Total Inventory",
+    "newCustomers": "New Customers",
+    "salesOverview": "Sales Overview"
+  },
+  "admin": {
+    "dashboardTitle": "Admin Dashboard",
+    "dashboardSubtitle": "Administrative tools and system overview",
+    "totalUsers": "Total Users",
+    "systemStatus": "System Status",
+    "statusRunning": "Running Smoothly",
+    "recentLogs": "Recent Logs",
+    "noLogsPlaceholder": "No recent logs available.",
+    "quickTools": "Quick Access Tools",
+    "manageUsers": "Manage Users",
+    "security": "Security",
+    "systemSettings": "System Settings",
+    "auditLogs": "Audit Logs"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "content": "Here are the terms of service..."
+  },
+  "buttons": {
+    "logout": "Logout",
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  },
+  "errors": {
+    "required": "This field is required",
+    "invalidEmail": "Invalid email address",
+    "passwordsDontMatch": "Passwords do not match"
+  },
+  "navigation": {
+    "home": "Home",
+    "markets": "Markets",
+    "wallet": "Wallet",
+    "profile": "Profile"
+  }
+}
+

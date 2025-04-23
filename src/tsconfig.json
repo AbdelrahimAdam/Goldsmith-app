@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES5",                         // Target JavaScript version
+    "lib": ["dom", "es6", "dom.iterable"],    // Include the necessary libraries
+    "module": "ESNext",                       // Set module system (ESNext for modern modules)
+    "moduleResolution": "node",               // How modules are resolved
+    "strict": true,                           // Enable strict type-checking
+    "jsx": "react-jsx",                      // For React 17 JSX transform
+    "baseUrl": "./src",                       // Base directory for module resolution
+    "paths": {
+      "@/*": ["*"]                            // Path alias for 'src' folder
+    },
+    "esModuleInterop": true,                  // Enable compatibility with commonjs modules
+    "skipLibCheck": true,                     // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true  // Ensure consistent file name casing
+  },
+  "include": [
+    "src/**/*"  // Include all files in the src directory
+  ],
+  "exclude": [
+    "node_modules",  // Exclude the node_modules folder
+    "build",         // Exclude build folder
+    "dist"           // Exclude dist folder
+  ]
+}
+

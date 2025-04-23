@@ -1,0 +1,28 @@
+{
+  "short_name": "Goldsmith",
+  "name": "Goldsmith Management System",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#facc15",
+  "background_color": "#ffffff",
+  "description": "A full-featured offline-first goldsmith management system for inventory, invoicing, compliance, and more."
+}
+
